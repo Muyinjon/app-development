@@ -1,0 +1,180 @@
+*{box-sizing: border-box;}
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+/* ----------Shape---------- */
+.shapeContainer{
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgba(169, 169, 169, 0.377);
+    padding: 20px;
+    text-align: center ;
+    color: red;
+    border-radius: 30px;    
+}
+.ShapeDiv{
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center ;
+
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    color: azure;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.rectangle{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(0, 255, 0);
+    color: rgb(0, 26, 255);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 50%; 
+}
+.ShapeDiv p{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.header-container, .nav-menu{
+    background-color: rgba(0, 0, 0, 0.253);
+    color: white;
+    height: 50px;
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+}
+.header-container >div{padding: 0 10px;}
+.header-container >div:nth-child(2){margin-left: auto;
+font-weight: bolder;}
+.headerNAV{position:fixed ;
+    top: 0;
+    left: 0;
+right: 0;}
+.nav-menu{display: none;}
+.nav-menu >div{padding: 0 10px;}
+.nav-menu >div:nth-child(2){margin-left: auto;}
+
+
+
+
+
+
+.collapsemenu{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 20px;
+}
+.collapsemenu >div{padding: 10px 20px;
+    color: white;}
+.collapsemenu >div:hover{
+    border-bottom:ridge 1px white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.menubtn:hover{
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.Closetoopen{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .header-container{display: none;}
+    .nav-menu{display: flex;}
+
+}
+@media screen and (min-width: 900px) {
+    .Closetoopen{
+        display: none;
+    }
+}
+
+
+/* MODAL WINDOW */
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 30px;
+}
+.card{
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center ;
+    color: red;
+    border-radius: 30px;
+}
+.card :hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.modalwindow{
+    background-color: rgba(30, 30, 30, 0.253);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+display: none;}
+
+.modal{width: 60%;
+    height: 80%;
+    margin: 1% auto;
+    background-color: rgb(80, 44, 44);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    text-emphasis: none;
+}
+
+.closemodal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.closemodal:hover{
+    color: red;
+    transform: scale(1.2);
+}
