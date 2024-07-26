@@ -2,7 +2,7 @@
 function Planes() {
     return (
         <div>
-            <h1>Planes</h1>
+            <h1>Trains</h1>
         </div>
     );
 }

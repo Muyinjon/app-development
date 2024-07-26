@@ -1,0 +1,135 @@
+[
+    {
+        "jets": [
+            {
+                "Name": "Lockheed Martin F-35 Lightning II ",
+                "Description": "The Lockheed Martin F-35 Lightning II is the pinnacle of the United States’ fifth-generation fighter development. Ever since entering production in 2006, the F-35 has embodied the latest in combat aircraft development. It boasts unmatched stealth features, sensor fusion, the world’s most powerful fighter engine, data networking capabilities, and the most advanced radar. Its pilots even use a special augmented reality helmet that offers them unprecedented levels of situational awareness. This jet is said to take its all-aspect stealth and sensor fusion to the max, making it almost unbeatable in beyond-visual-range combat. Furthermore, it can hold its own in good old dogfights too. In 2017, during the model’s first Red Flag exercise, the F-35 scored a 20:1 kill ratio, meaning that it won 20 engagements for each one it lost. Such an advantage is mostly the result of the F-35’s unprecedented situational awareness. The aircraft can track and attack targets in all directions, so, getting on the F-35’s tail does not mean you are safe from its missiles. The F-35 also has three distinct variants: the conventional takeoff and landing F-35A, which works as your regular fighter jet; the F-35B, which has vertical take-off and landing ability; and the carrier variant F-35C, designed to land on aircraft carriers. Initially, this jet experienced several developmental problems and, despite being intended as a cheap alternative to the F-22, quickly became the most expensive weapons system in the world. However, with the cost of the new F-35s dropping and the deficiencies being ironed out, more and more countries are ordering F-35s, making it an export success.",
+                "imglocation": "./img/jet1.jpg",
+                "Rank": 1
+            },
+            {
+                "Name": "Chengdu J-20 Mighty Dragon ",
+                "Description": "China’s first 5th generation fighter jet introduced in 2017, the J-20 Mighty Dragon, is a heavy, powerful fighter designed to rival the F-22 and the Su-57. It is a step forward in Chinese fighter jet development, bringing advanced avionics, and superior performance to the People’s Liberation Army Air Force (PLAAF). It might not be as maneuverable as its counterparts without the thrust-vectored engine exhausts, but the stealthy design of the Chengdu J-20 is still incredibly advanced. While the exact characteristics of this aircraft are classified, ongoing enhancements ensure that it continues to pose a threat in aerial warfare. New variants are currently in development, including a two-seater jet intended to control drones. A new, more powerful engine is also currently being tested on this aircraft. China remains tight-lipped about the J-20’s exact capabilities",
+                "imglocation": "./img/jet2.jpg",
+                "Rank": 2
+            },
+            {
+                "Name": "Lockheed Martin F-22 Raptor",
+                "Description": "The F-22 is the first-ever 5th generation fighter jet to enter service, and the first fighter to include stealth features. Its thrust-vectoring engines and advanced weapons systems give it an edge at close-range dogfighting, and it also has powerful sensors for beyond-visual range. The United States Air Force (USAF) is the only service to operate the F-22, as it was deemed too advanced to be handed over to another country. However, the F-22 was regularly deployed abroad where it has been used in multiple combat missions, proving its worth. The USAF is also continuously upgrading its Raptors, which means that, despite being first designed more than two decades ago, they remain some of the most advanced aircraft in the world.",
+                "imglocation": "./img/jet3.jpg",
+                "Rank": 3
+            },
+            {
+                "Name": "KAI KF-21 Boramae ",
+                "Description": "The KAI KF-21 Boramae, produced by South Korea in partnership with Indonesia, represents a significant leap in the Korean aerospace industry. This jet incorporates stealth features, an advanced AESA radar system, and some technologies based on the F-35, putting it somewhere between a 4.5 and 5th-generation fighter. The first KF-21 conducted its maiden flight in July 2022, and several more prototypes are currently in production and undergoing testing at KAI. The company aims to start delivering these jets to the military in 2026. The Boramae is also set to receive additional improvements in the near future. Further variants, with internal weapons bays and improved sensors to enhance its stealth capability, along with an integrated electronic warfare system to boost its survivability in combat, and make it a true 5th-generation fighter jet.",
+                "imglocation": "./img/jet4.webp",
+                "Rank": 4
+            },
+            {
+                "Name": "Sukhoi Su-57",
+                "Description": "The Sukhoi Su-57 Felon is Russia’s first stealth aircraft. However, its development was slowed due to numerous problems and delays and, although initially planned to become operational years ago, it only exists in small quantities. In the coming years, the Su-57 is poised to receive a new, more powerful engine to further enhance its performance and various other upgrades. It is a heavy fighter with low-speed maneuverability, as well as stealth characteristics and advanced radar systems.",
+                "imglocation": "./img/jet5.jpg",
+                "Rank": 5
+            },
+            {
+                "Name": "Shenyang FC-31 Gyrfalcon",
+                "Description": "China’s Shenyang FC-31 Gyrfalcon project initially introduced over a decade ago, is now close to fruition. Although the FC-31 is yet to be unveiled, the jet, under different designations, is close to becoming China’s new carrier-based jet. Although exact capabilities remain largely classified, recent images show the FC-31 with redesigned engine housing, a new canopy, and many other intriguing upgrades.",
+                "imglocation": "./img/jet6.webp",
+                "Rank": 6
+            }
+        ]
+    },
+    {
+        "Cars": [
+            {
+                "Name": "Bugatti Chiron Super Sport",
+                "Description": "the world’s fastest production car. Yep, the go-faster Super Sport is based on the Bugatti Chiron that Andy Wallace piloted to 304.773mph back in 2019, and features an 8.0-litre quad-turbo V16 producing an extra 100bhp over the standard Chiron. All in, that’s 1,578bhp at your disposal. In fact, there’s just one difference to the Chiron which smashed the 300mph barrier – the top speed has been limited to a mere 273mph.",
+                "imglocation": "./img/car1.webp",
+                "Rank": 1
+            },
+            {
+                "Name": "Rimac Nevera",
+                "Description": "The Nevera is astonishingly fast. Fast in a way that’s tricky to put into words, either while you’re sitting in it trying to process what the hell is happening to your mind, body and soul when you nail the throttle, or a few days later writing about it,” wrote Jason Barlow when he got the call to test drive the Rimac Nevera in Croatia last year. So allow us to hit you with some numbers instead: courtesy of a 120kWh battery, four motors driving each wheel individually, and a power output equivalent to 1,914bhp and 1,740lb ft of torque, Mate Rimac’s hypercar is capable of 0-60mph in 1.85 seconds, 100mph in 4.3secs, and 186mph in 9.3secs – on to a 258mph max",
+                "imglocation": "./img/car2.jpg",
+                "Rank": 2
+            },
+            {
+                "Name": "Pininfarina Battista",
+                "Description": "Meet the sister car to the Rimac Nevera. It’s based around the same powertrain technology, electrical architecture and carbon core (Rimac supplies the internal gubbins), but wears an Italian frock of Pininfarina design. Worried about charging? No drama, Pininfarina has agreed a deal with ChargePoint, meaning free charging for five years. Which means, theoretically, if you get enough miles under your belt, you could break even on the £2m purchase price. Challenge accepted…",
+                "imglocation": "./img/car3.jpg",
+                "Rank": 3
+            },
+            {
+                "Name": "Lamborghini Sián",
+                "Description": "With a name derived from the Bolognese dialect for lightning bolt, it’s no surprise that electrification is the Sián’s talking point, too. It features a tuned version of the Aventador SVJ’s 6.5-litre, naturally aspirated V12, with another 34bhp of electrical oomph (courtesy of lithium-ion supercapacitors) added for a total of 808bhp. And while that electroboost may not sound a whole lot in the grand scheme of things, it helps to smooth out the savage gearshifts that have plagued Lambos since the Aventador.",
+                "imglocation": "./img/car4.webp",
+                "Rank": 4
+            },
+            {
+                "Name": "Ferrari 812 Competizione",
+                "Description": "The 812 features a naturally aspirated V12 – no electric gubbins or turbos in sight – but it’s also quite possibly the last we’ll ever see. We’re not crying, you are. It’s essentially a go-faster, er, Superfast, with power upped to 819bhp and torque to 513lb ft. Add in much weight saving and aero work and the results are predictably ballistic. If, as suspected, it is Ferrari’s last bastion of non-hybrid nat-asp, it’s not a bad way to go out.",
+                "imglocation": "./img/car5.webp",
+                "Rank": 5
+            },
+            {
+                "Name": "McLaren Speedtail",
+                "Description": "You’ll surely be up to speed with the, erm, Speedtail, by now, but the fact remains: it still holds the title of McLaren’s fastest car ever – 250mph – achieved at the old Space Shuttle landing strip at Kennedy Space Center in Florida, courtesy of 1,036bhp from its hybridised 4.0-litre twin-turbocharged V8. That, and its super-streamlined shape, which in a world of same-same supercars remains as suited to the red carpet as anything else that’s gone before it. The Senna can only look on enviously.",
+                "imglocation": "./img/car6.jpg",
+                "Rank": 6
+            }
+        ]
+    },
+    {
+        "Trains": [
+            {
+                "Name": "Shanghai Maglev: 460km/h (China)",
+                "Description": "The Shanghai Maglev, also known as the Shanghai Transrapid, tops the list with its maximum operating speed of 460km/h and average speed of 251km/h. It has a record high-speed of a staggering 501km/h. The maglev train isn’t a conventional high-speed model. Instead, it utilizes electromagnetic force to levitate above the track, eliminating friction and allowing for incredibly smooth and quiet travel. The Shanghai Maglev Transportation Development Company owns and operates the Shanghai Maglev. Siemens and German multinational ThyssenKrupp constructed the train as a joint venture. The service started commercial operations in April 2004 and runs on the 30.5km Shanghai Maglev Line. This is the first commercially operated high-speed magnetic levitation line, running from Longyang Road Station in Shanghai, China to Shanghai Pudong International Airport, the route is the first commercially operated high-speed magnetic levitation line. The maglev train can cover the approximately 19-mile distance in just under eight minutes, still making it an incredibly efficient connection to the airport, despite the fact that it doesn’t terminate in the city centre.",
+                "imglocation": "./img/train1.webp",
+                "Rank": 1
+            },
+            {
+                "Name": "CR Harmony: 350km/h (China)",
+                "Description": "The China Railway (CR) Hexie, also known as the Harmony, is an umbrella term for the CRH series EMU high-speed trains. Although they operate at the same speed as the Fuxing trains, with a top operating speed of 350km/h, we have them in second place due to their higher record speeds in testing. The CR Harmony was originally built using existing technology from global rolling stock manufacturers, with CR aiming to eventually build up its own knowledge of the technology. This plan came to fruition with the domestic development of the CR Fuxing trains. The CRH380B is based on the Siemens Velaro family of high-speed trains and has been in service on the Shanghai–Hangzhou High-Speed Railway and Shanghai–Nanjing High-Speed Railway since 2011. The CRH380A has the second-highest recorded speed of the Harmony trains, clocking 486.1km/h during a test run in 2010. Controversially, although it was not produced under a technology transfer agreement, there are accusations that the CRH380A is based on unlicensed Japanese Shinkansen technology. Another notable Harmony model is the CRH380D, derived from the Bombardier Zefiro 380. With a record test speed of 483km/h, the highest speed ever recorded by a conventional unmodified high-speed train, there are 85 trainsets currently in operation in China, split across the Shanghai Railway and Chengdu Railway.",
+                "imglocation": "./img/train2.jpg",
+                "Rank": 2
+            },
+            {
+                "Name": "CR Fuxing: 350km/h (China)",
+                "Description": "The China Railway (CR) Fuxing, also known as the CR series EMU, is a series of high-speed trains. Developed by China Railway Corporation, Fuxing trains operate at 350km/h but have been run as high as 420km/h in tests. The Fuxing models are the first completely domestically produced high-speed models in China, without any proprietary or licensed technology from external rolling stock manufacturers. An 8-car Fuxing set is 209m long, 3.36m wide and 4.06m high and can carry over 500 passengers. Perhaps best known for their use on the Beijing–Shanghai high-speed railway, which carries passengers between the two cities in just shy of 5 hours, Fuxing sets are also used on seven other lines in China. In fact, the new high-speed connection to Tibet uses a modified Fuxing model designed to operate at high altitudes. The Fuxing CR400AF will be the first model to operate abroad, with 11 trainsets ordered for the Jakarta-Bandung high-speed railway in Indonesia, due to start running this year.",
+                "imglocation": "./img/train3.jpg",
+                "Rank": 3
+            },
+            {
+                "Name": "4. DB ICE: 350km/h (Germany)",
+                "Description": "The ICE 3, or Intercity-Express 3, is a family of high-speed electric multiple-unit trains manufactured by Siemens and Bombardier. The ICE 3 is operated mainly by Deutsche Bahn (DB), but also by Dutch Railway operator Nederlandse Spoorwegen (NS). The flagship of high-speed rail in Germany, the family includes classes 403, 406, 407 and 408, which are known as ICE 3, ICE 3M, New ICE 3 and ICE 3neo respectively. Three multisystem trains, known as ICE International, are in use in the Netherlands. ICE 3 trainsets also operate on cross-border routes to the Netherlands, Belgium and France ICE 3 trains operate at the national maximum high-speed railways track speed of 320km/h in Germany, but have pipped their competition in this list due to the fact that the class 403 is authorised to run at speeds of 330km/h on the high-speed line between Frankfurt and Cologne to overcome delays. The ICE 3 Classes 403 and 406 hit top speeds of 368km/h on trial runs. The ICE 3M/F was the inspiration for Siemens’ Velaro trainsets, which are used in Germany, Belgium, France, the UK, the Netherlands, Spain, China, Russia and Turkey. Egyptian National Railways has also ordered 41 eight-car ICE trainsets.",
+                "imglocation": "./img/train4.jpg",
+                "Rank": 4
+            },
+            {
+                "Name": "SCNCF TGV: 320km/h (France)",
+                "Description": "The Train à Grande Vitesse, or TGV, is iconic. Initially running on Europe’s first high-speed railway in France, the pioneer of high-speed rail in Europe has broken records for top speeds, repeatedly, since its inception. In 1981, TGV Sud-Est trainset number 16 set a record speed of 380km/h. Just shy of a decade later in 1990, a modified TGV Atlantique 325 train recorded a new record speed of 515.3km/h. This record was smashed in 2007, when a Modified TGV POS, fitted with two powered bogies similar to the AGV prototype, hit 574.8kh/h, the current world record. Manufactured by Alstom and operated by French operator SNCF in the main, in everyday operation the TGV Duplex, Réseau, POS and Euroduplex models run at a top track speed of 320km/h in France. The SNCF TGV Network extends outside France, directly linking to Italy, Spain, Belgium, Luxembourg and Germany. Open-access operators also link France to other countries using TGV trainsets. TGV Lyria runs to Switzerland and Thalys/Eurostar to the UK, Netherlands, Germany and Belgium. Further afield, TGV trainsets operate in the US, Spain, Italy, Morocco, China and South Korea, The newest model of TGV, TGV-M, was unveiled in 2021. In July 2018, SNCF placed a €2.7bn order for 100 TGV-M trainsets, then referred to as the Avelia Horizon. With a proposed maximum capability of 350km/h, the TGV-M is expected to enter service with SNCF in 2024.",
+                "imglocation": "./img/train5.png",
+                "Rank": 5
+            },
+            {
+                "Name": "JR Shinkansen: 320km/h (Japan)",
+                "Description": "Recognised the world over, the Shinkansen, colloquially known as the bullet train, is a Japanese star. But surprisingly, the original high-speed train doesn’t break into the top five. Japan was the first country to develop a dedicated high-speed railway network, initially built to connect distant Japanese regions with the capital, Tokyo. Launching as the 515km Tokyo–Nagoya–Osaka Tokaido Shinkansen line in 1964, the network currently spans almost 3,000km of track. The first Shinkansen trains to enter service in 1964, now classed as the 0 series, had a maximum operating speed was 220km/h. The current E5 and H5 Series, built by Hitachi Rail and Kawasaki Heavy Industries, hit a top operating speed of 320km/h. The E5 series runs on Tohoku Shinkansen and Hokkaido Shinkansen services, and the H5 is a cold-weather derivative of the E5 series that runs on the same lines. H5 units include several cold-weather features, including an upgraded snowplough, more durable rubber protection on the connections between cars and a stainless-steel underframe that protects the electronics from the elements. Outside of everyday operation, the top speed a Shinkansen has recorded is 443km/h, recorded by the experimental Class 955 “300X” Tōkaidō Shinkansen during tests in 1996. JR Central is developing an experimental Maglev Shinkansen, the L0 Series. Manufactured by Mitsubishi Heavy Industries and JR Central subsidiary Nippon Sharyo, the trains use the Japanese SCMaglev system. JR Central plans to use the L0 series on the passenger services launching in 2027 on the Chūō Shinkansen railway line between Tokyo and Osaka. These trains are expected to operate at 500km/h but have hit a top speed during testing of a whopping 603km/h.",
+                "imglocation": "./img/train6.webp",
+                "Rank": 6
+            }
+        ]
+    },
+    {
+        "Source": [
+            {
+                "Car": "https://www.topgear.com/car-news/top-gear-advice/here-are-20-current-supercars-you-should-know-about"
+            },
+            {
+                "Train": "https://www.railway-technology.com/features/the-10-fastest-high-speed-trains-in-the-world/"
+            },
+            {
+                "Jets": "https://www.aerotime.aero/articles/best-fighter-jets"
+            }
+        ]
+    }
+]

@@ -19,10 +19,10 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             {/* Wrap the <Link> elements in a parent element */}
             <div className='navdiv'>
-                <Link className="navbar-brand" to="./pages/home">Home</Link>
-                <Link className="navbar-brand" to="./pages/cars">Cars</Link>
-                <Link className="navbar-brand" to="./pages/cars">Planes</Link>
-                <Link className="navbar-brand" to="./pages/trains">Trains</Link>
+                <Link className="navbar-brand" to="/">Home</Link>
+                <Link className="navbar-brand" to="/cars">Cars</Link>
+                <Link className="navbar-brand" to="/planes">Planes</Link>
+                <Link className="navbar-brand" to="/trains">Trains</Link>
             </div>
             {/* The closing tag of the <nav> element */}
             <Outlet />
