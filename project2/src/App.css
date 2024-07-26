@@ -36,6 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.navdiv{justify-items: center; margin: auto;}
-.navdiv :nth-child(1){margin-left: auto;}
-.navbar-brand:hover{color: red;} 

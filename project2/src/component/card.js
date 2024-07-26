@@ -1,13 +1,13 @@
-function Card(){        
-    let cardimg = {}
-
+import '../index.css'
+ 
+function Card({ cardimg, title, description, rank, onClick }) {        
 
     return (
 
-        <div className="card">
-            <h1 className="card-title">Card</h1>
+        <div className="card" onClick={onClick}>
+            <h1 className="Ranking">{rank}</h1>
+            <h1 className="card-title">{title}</h1>
             <img className="card-img" src={cardimg} alt="img"/>
-            <p className="card-text"></p>
         </div>)
 }
 export default Card

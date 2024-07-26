@@ -16,7 +16,7 @@ const Navbar = () => {
     // The function returns a JSX element
     return (
         // The JSX element is a <nav> element
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav className="navbar sticky-top">
             {/* Wrap the <Link> elements in a parent element */}
             <div className='navdiv'>
                 <Link className="navbar-brand" to="/">Home</Link>
