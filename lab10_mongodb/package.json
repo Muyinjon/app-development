@@ -1,0 +1,19 @@
+{
+    "name": "lab10_mongodb",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "ISC",
+    "scripts": {
+        "echo \"Error: no test specified\" && exit 1",
+
+    },
+    "author": "",
+    "description": "",
+
+
+
+
+
+
+
+}

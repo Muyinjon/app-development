@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+body{background-color: black; color: white;}
+
+.login{width: 500px; margin: 100px auto; padding: 20px; background-color: whitesmoke; color: darkgray;}
+.formcontrol{margin-top: 20px;}
+.myform fieldset legend{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+
+}
+.formcontrol input[type="submit"]{width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.formcontrol input[type="submit"]:hover
+{background-color: crimson;
+    font-weight: bold;
+    box-shadow: 0 0 2px 1px gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.formcontrol input{padding: 5px;}
