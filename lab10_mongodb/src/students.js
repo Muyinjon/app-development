@@ -8,8 +8,10 @@ const Schema = mongoose.Schema;
 //config the schema
 const studentSchema = new Schema({
     name: String,
-    age: Number,
-    gender: String,
-    address: String,
-    grade: Number
 });
+
+//create the schema model for each student
+const Student = mongoose.model("Student", studentSchema);
+
+//export the schema model
+module.exports = Student;

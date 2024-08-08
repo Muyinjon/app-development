@@ -1,0 +1,8 @@
+*{box-sizing: border-box;}
+title{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+.products{background-color: aqua;
+padding: 20px;}

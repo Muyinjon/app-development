@@ -1,19 +1,20 @@
 {
-    "name": "lab10_mongodb",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "ISC",
-    "scripts": {
-        "echo \"Error: no test specified\" && exit 1",
-
-    },
-    "author": "",
-    "description": "",
-
-
-
-
-
-
-
+  "name": "lab10_mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mocha": "^10.7.0",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  }
 }
