@@ -87,7 +87,7 @@ class Chair:
         self.shippingcostfee = 0.2
         self.totalshippingcost = 0
     
-    #accesible class property
+    #accessible class property
     chair_color="brown"
     
     #

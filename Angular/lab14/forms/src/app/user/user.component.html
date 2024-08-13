@@ -1,0 +1,46 @@
+<section class="container">
+    <form class="form" action>
+        <h1 class="formtitle">Signup Form </h1>
+
+        <!-- collect username -->
+        <div class="form-control">
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username"
+                placeholder="Enter your username" required
+                [(ngModel)]="newuser.name"
+                autofocus
+                #name="ngModel"
+                (change)="displaylog(name)"
+                minlength="3" maxlength="32">
+
+            <div class="validMsg" *ngIf="name.invalid && name.touched">
+                <p *ngIf="name.errors?.['required']">Username is invalid</p>
+                <p *ngIf="name.errors?.['minlength']">Name must be at least 3
+                    characters</p>
+
+            </div>
+        </div>
+        <!-- collect email -->
+        <div class="form-control">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"
+                placeholder="Enter your email"
+                [(ngModel)]="newuser.email"
+                required
+                autofocus>
+        </div>
+
+        <!-- submit button -->
+        <div class="form-control">
+            <button type="submit" class="btnsubmit">Submit</button>
+
+        </div>
+        <!-- Json display -->
+        <div class="json_display">
+            <p>Result:</p>
+            <p>{{jsonUser}}</p>
+        </div>
+
+    </form>
+
+</section>
