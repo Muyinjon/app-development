@@ -29,6 +29,43 @@
   font-size: 16px;
 }
 
+.json_display {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* angular validation */
+
+.form-control input.ng-touched.ng-valid {
+  border: 3px solid greenyellow;
+  border-radius: 5px;
+}
+
+.form-control input.ng-touched.ng-invalid {
+  border: 3px solid red;
+  border-radius: 5px;
+}
+
+.validMsg {
+  background-color: rgb(233, 21, 21);
+  color: white;
+  padding: 12px;
+}
+
+.formErrorMsg {
+  background-color: rgb(233, 21, 21);
+  color: white;
+  padding: 12px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+.btnsubmit:disabled,
+.btnsubmit:disabled:hover {
+  background-color: gray;
+  border: 2px solid gray;
+  cursor: not-allowed;
+}
 .btnsubmit {
   width: 100%;
   padding: 10px;
@@ -40,26 +77,8 @@
   cursor: pointer;
   text-align: center;
 }
-.btnsubmit:hover {
+.btnsubmit:enabled:hover {
   background-color: darkred;
   box-shadow: 0 0 2px 1px red;
   border: 2px solid red;
-}
-.json_display {
-  text-align: center;
-  margin-top: 50px;
-}
-
-/* angular validation */
-
-.ng-dirty input {
-  border: red 2px solid;
-}
-.ng-valid input {
-  border: green 2px solid;
-}
-.validMsg {
-  background-color: rgb(233, 21, 21);
-  color: white;
-  padding: 12px;
 }

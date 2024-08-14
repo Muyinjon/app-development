@@ -1,6 +1,11 @@
 <section class="container">
-    <form class="form" action>
+    <form class="form" action #form="ngForm" (ngSubmit)="submitForm(form)">
         <h1 class="formtitle">Signup Form </h1>
+        <!-- Form Error Messages -->
+        <div class="formErrorMsg" *ngIf="!form.valid && formsubmit">
+            There is problem with your form information. Please correct it.
+
+        </div>
 
         <!-- collect username -->
         <div class="form-control">
@@ -23,24 +28,42 @@
         <!-- collect email -->
         <div class="form-control">
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email"
+            <input type="email"
+                name="email"
+                id="email"
                 placeholder="Enter your email"
                 [(ngModel)]="newuser.email"
                 required
-                autofocus>
+                autofocus
+                email="userEmail"
+                #email="ngModel"
+                pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                maxlength="128">
+            <!-- Error messages -->
+            <div class="validMsg" *ngIf="email.invalid && email.touched">
+                <p *ngIf="name.errors?.['required']">Email is required!</p>
+                <p *ngIf="name.errors?.['email']">Invalid email format </p>
+            </div>
         </div>
 
         <!-- submit button -->
         <div class="form-control">
-            <button type="submit" class="btnsubmit">Submit</button>
+            <button type="submit" class="btnsubmit"
+                [disabled]="formsubmit && !form.valid ">Submit</button>
 
         </div>
         <!-- Json display -->
-        <div class="json_display">
-            <p>Result:</p>
-            <p>{{jsonUser}}</p>
+        <div class="json_display" *ngIf="!form.valid && form.submitted">
+            <p>Thank you for signing up <b>{{parseJsonName}}</b><br> we sent the
+                conformation email to <b>{{parseJsonEmail}}</b></p>
         </div>
-
+        <!-- loop all users -->
+        <div *ngIf="!form.valid && form.submitted">
+            <ul>
+                <li *ngFor="let user of model.getuser()">{{user.id}} --
+                    {{user.name}} , {{user.email}}</li>
+            </ul>
+        </div>
     </form>
 
 </section>
