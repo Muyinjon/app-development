@@ -1,0 +1,39 @@
+<main class="main">
+    <h1 class="title">Welcome to GTA 6 Shop</h1>
+    <div class="container">
+        <main>
+            <img class="cover" src="../assets/Grand_Theft_Auto_VI.webp" alt>
+
+        </main>
+        <aside class="aside">
+            <h3 class="aside-title">Grand Theft Auto VI</h3>
+            <hr>
+            <p class="description">Grand Theft Auto VI heads to the state of
+                Leonida,
+                home to the neon-soaked streets of Vice City and beyond in the
+                biggest,
+                most immersive evolution of the Grand Theft Auto series yet.
+                Coming 2025
+                to PlayStation 5 and Xbox Series X|S. </p>
+            <div class="pricediv">
+                <h4 class="price">69.99</h4>
+                <h4 class="discount">39.99</h4>
+            </div>
+            <form action>
+                <p class="amount">Stock: <span
+                        class="stock">{{amount}}</span></p>
+                <div class="quantity">
+                    <label for="quantity">Quantity: </label>
+                    <input type="number" id="quantity" min="0" max="100"
+                        class="input-quantity"
+                        name="input_quantity">
+                </div>
+                <button type="submit" class="button-cart">Add to cart</button>
+                <div>{{input_quantity}}</div>
+
+            </form>
+
+        </aside>
+    </div>
+
+</main>
