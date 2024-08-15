@@ -23,8 +23,9 @@ export class UserComponent {
   }
 
   adduser(u: User) {
-    console.log(`New user is ` + this.jsonUser);
     this.usercounter += 1;
+
+    console.log(`New user is ` + this.jsonUser);
     this.model.adduser(
       new User(this.usercounter, this.parseJsonName, this.parseJsonEmail)
     );
@@ -46,7 +47,6 @@ export class UserComponent {
       this.parseJson = JSON.parse(JSON.stringify(this.newuser));
       this.parseJsonName = this.parseJson.name;
       this.parseJsonEmail = this.parseJson.email;
-      this.adduser(this.newuser);
       this.adduser(this.newuser);
       this.newuser = new User();
       form.reset();

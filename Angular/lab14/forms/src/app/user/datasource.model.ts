@@ -8,9 +8,7 @@ export class Datasource {
   constructor() {
     this.users = new Array<User>(
       new User(1, 'muyin', 'muyin@qq.com'),
-      new User(2, 'muyin2', 'muyin2@qq.com'),
-      new User(3, 'muyin3', 'muyin3@qq.com'),
-      new User(4, 'muyin4', 'muyin4@qq.com')
+      new User(2, 'muyin4', 'muyin4@q2.com')
     );
   }
   getuser(): User[] {

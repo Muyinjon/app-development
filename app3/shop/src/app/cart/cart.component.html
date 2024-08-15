@@ -1,5 +1,5 @@
 <main class="main">
-    <h1 class="title">Welcome to GTA 6 Shop</h1>
+    <h1 class="title">Grand Theft Auto VI Store</h1>
     <div class="container">
         <main>
             <img class="cover" src="../assets/Grand_Theft_Auto_VI.webp" alt>
@@ -17,23 +17,47 @@
                 to PlayStation 5 and Xbox Series X|S. </p>
             <div class="pricediv">
                 <h4 class="price">69.99</h4>
-                <h4 class="discount">39.99</h4>
+                <h4 class="discount">{{price}}</h4>
             </div>
-            <form action>
-                <p class="amount">Stock: <span
+            <form #cartForm="ngForm" (ngSubmit)="onSubmit(cartForm)">
+                <p class="amount">Remaining on stock: <span
                         class="stock">{{amount}}</span></p>
                 <div class="quantity">
                     <label for="quantity">Quantity: </label>
-                    <input type="number" id="quantity" min="0" max="100"
+                    <input
+                        type="number"
+                        id="quantity"
                         class="input-quantity"
-                        name="input_quantity">
+                        name="input_quantity"
+                        [(ngModel)]="inputValue"
+                        #quantity="ngModel"
+                        [max]="amount"
+                        required
+                        [min]="1">
                 </div>
-                <button type="submit" class="button-cart">Add to cart</button>
-                <div>{{input_quantity}}</div>
-
+                <button type="submit" class="button-cart"
+                    [disabled]="cartForm.invalid">Add to cart</button>
             </form>
+            <validation-modal
+                [isVisible]="isModalVisible"
+                [errorType]="errorType"
+                [amount]="amount"
+                (closeModal)="isModalVisible = false"></validation-modal>
 
         </aside>
+
+    </div>
+    <div class="orders-list" *ngIf="hasSubmittedOrders">
+        <h4>Your Orders:</h4>
+        <hr>
+        <ul>
+            <li *ngFor="let order of orders">
+                {{ order.name }} - {{ order.amount }} &#64; ${{ order.price
+                }}
+                each, Total: ${{ (order.total.toFixed(2)) }}
+            </li>
+        </ul>
+        <h4>Total Price: ${{ finalTotal }}</h4>
     </div>
 
 </main>

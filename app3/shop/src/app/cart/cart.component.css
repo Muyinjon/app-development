@@ -48,7 +48,6 @@
   margin: 0 auto;
   border-radius: 15px;
   padding: 20px;
-  background: rgb(255, 130, 203);
   background: -moz-radial-gradient(
     circle,
     rgba(255, 130, 203, 1) 0%,
@@ -104,21 +103,27 @@
 
 @keyframes float {
   0% {
-    text-shadow: 0px 0 3px rgb(250, 92, 144);
+    text-shadow: 0px 2px 4px rgb(255, 255, 255);
     transform: translatey(0px);
   }
   50% {
-    text-shadow: 0px 0 6px rgb(250, 92, 144);
+    text-shadow: 0px 6px 6px rgb(255, 166, 196);
     transform: translatey(-5px);
   }
   100% {
-    text-shadow: 0px 0 3px rgb(250, 92, 144);
+    text-shadow: 0px 2px 4px rgb(255, 255, 255);
     transform: translatey(0px);
   }
 }
 
 .button-cart:hover {
   background-color: rgb(206, 59, 115);
+}
+
+.button-cart[disabled]:hover {
+  cursor: not-allowed;
+  background-color: gray;
+  animation: none;
 }
 
 .aside-title {
@@ -182,4 +187,48 @@ h4 {
 }
 h3 {
   margin: 0;
+}
+
+.orders-list {
+  position: absolute;
+  bottom: 50px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  max-width: 300px;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 0px 0px 3px,
+    rgba(240, 46, 170, 0.3) 0px 0px 0px 9px,
+    rgba(240, 46, 170, 0.2) 0px 0px 0px 15px,
+    rgba(240, 46, 170, 0.1) 0px 0px 0px 21px,
+    rgba(240, 46, 170, 0.05) 0px 0px 0px 27px;
+  background: -moz-radial-gradient(
+    circle,
+    rgba(255, 130, 203, 1) 0%,
+    rgba(206, 59, 115, 1) 48%,
+    rgba(162, 106, 106, 1) 100%
+  );
+  background: rgb(255, 130, 203);
+  animation: float 3.5s ease-in-out infinite;
+}
+.orders-list hr {
+  background-color: rgb(255, 130, 203);
+  height: 0;
+  border: 2px dotted rgb(202, 12, 123);
+  border-radius: 50%;
+}
+
+.orders-list h4 {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.orders-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: white;
+}
+
+.orders-list li {
+  margin-bottom: 5px;
+  color: white;
 }
