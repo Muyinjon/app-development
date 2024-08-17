@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Document</title>
+        <style>
+        *{
+            margin: 0;
+            padding:0 ;
+            box-sizing: border-box;
+
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:radial-gradient(rgb(255, 234, 0),rgb(16, 255, 4),rgb(255, 234, 0),rgb(16, 255, 4),rgb(255, 234, 0),rgb(16, 255, 4),rgb(255, 234, 0),rgb(16, 255, 4),rgb(255, 234, 0),rgb(16, 255, 4),rgb(255, 234, 0),rgb(16, 255, 4)) 
+        }
+       .container
+       {
+             width: 350px;
+             height: 200px;
+             background-color: rgb(255, 255, 255);
+             position: relative;
+         
+             box-shadow: 5px -5px 15px rgb(168, 162, 162) inset, -5px 5px 35px rgb(168,162,162);
+             border-radius: 20px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             transition-delay: 1s;
+             transition: 1s;
+            }
+
+
+      .container.active{
+              filter: blur(7px);
+            }
+
+
+       .emojis{
+        height: 48px;
+        width: 50px;
+        border-radius: 50%;
+        margin-bottom: 30px;
+        position: absolute;
+        top: 40px;
+        display: flex;
+        overflow: hidden;
+  
+      } 
+
+       .emojis i{
+        margin-left: 1.6px;
+        background-color: var(--color);
+        border-radius: 50%;
+        
+      }
+
+       .stars{
+           color: rgb(209, 213, 217);
+          position: absolute;
+          bottom: 55px;
+       }
+    
+       
+       .fa-star.active{
+        color: rgb(252, 252, 7);
+       }
+
+       .pop-up.active{
+        width: 250px;
+        height: 120px;
+        background-color: rgb(22, 22, 22);
+        position:absolute;
+        left: 270px;
+        transition: 1s;
+        transition-delay: 1s;
+        box-shadow: 5px -5px 15px #fffefe inset, -5px 5px 35px rgb(93, 88, 88);
+        border-radius: 20px;
+       } 
+
+       .crossBtn{
+        visibility: hidden;
+       }
+
+.pop-up.active .crossBtn{
+        visibility: visible;
+        height: 20px;
+        width: 20px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 50%;
+        font-size: 13px;
+        font-family: arial;
+        font-weight: bolder;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        transition: 1s;
+        transition-delay: 1s;
+        padding-left:6px;
+        padding-top: 3px;
+        color: white;
+        box-shadow: -2px 2px 5px rgb(255, 250, 250) inset, -5px 5px 35px rgb(121, 119, 119);
+       }
+       .pop-up.active .crossBtn:active{
+        transform: scale(0.7);
+       }
+
+       h1,p{
+           position: absolute;
+           top: 10px;
+           opacity: 0;
+       }
+
+   .pop-up.active h1{
+      color: white;
+      position: relative;
+      left: 50px;
+      top: 15px;
+      opacity: 1;
+      transition: 1s;
+      transition-delay: 1s;
+    }
+
+    .pop-up.active p{
+      color: white;
+      position: absolute;
+      left: 50px;
+      top: 60px;
+      color: red;
+      font-size: 20px;
+      opacity: 1;
+      transition: 1s;
+      transition-delay: 1s;
+    }
+ 
+    @media screen and (max-width:400px){
+      body{
+        background-color: aqua;
+      }
+      .pop-up.active{
+        left:75px;
+      }
+
+      .pop-up.active h1{
+        left: 40px;
+      }
+      .pop-up.active p{
+        left: 40px;
+      }
+      
+      .pop-up.active .crossBtn:active{
+        transform: scale(0.5);
+      }
+    }
+
+
+
+       
+
+    </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="emojis">
+                <i style="--color:red;"
+                    class="fa-regular fa-face-angry fa-3x"></i>
+                <i style="--color:rgba(175, 17, 17, 0.734);"
+                    class="fa-regular fa-face-frown fa-3x"></i>
+                <i style="--color:rgb(173, 176, 12);"
+                    class="fa-regular fa-face-meh fa-3x"></i>
+                <i style="--color:rgba(223, 192, 17, 0.816);"
+                    class="fa-regular fa-face-smile fa-3x"></i>
+                <i style="--color:rgb(255, 230, 0);"
+                    class="fa-regular fa-face-laugh fa-3x"></i>
+            </div>
+
+            <div class="stars">
+                <i class="fa-solid fa-star fa-2x"></i>
+                <i class="fa-solid fa-star fa-2x"></i>
+                <i class="fa-solid fa-star fa-2x"></i>
+                <i class="fa-solid fa-star fa-2x"></i>
+                <i class="fa-solid fa-star fa-2x"></i>
+            </div>
+
+        </div>
+        <div class="pop-up">
+            <div class="crossBtn">X</div>
+            <h1>Thank You</h1>
+            <p>For Your Feedback !!</p>
+        </div>
+
+    </body>
+    <script>
+let container = document.querySelector(".container")
+let star1 = document.querySelectorAll(".fa-solid");
+let Allemoji = document.querySelector(".emojis");
+let singleemoji = document.querySelectorAll(".fa-regular ")
+let pop_up = document.querySelector(".pop-up");
+let crossBtn=document.querySelector(".crossBtn");
+
+
+
+
+star1.forEach((star1,index)=>{
+  star1.addEventListener("click",()=>{
+    feedback(index);
+    pop_up.classList.add("active");   
+    container.classList.add("active")
+    
+    
+  });
+})
+
+crossBtn.addEventListener("click",function(){
+  pop_up.classList.remove("active");
+  container.classList.remove("active")
+})
+
+// window.addEventListener("click",function(){
+//   container.classList.remove("active")
+//   pop_up.classList.remove("active");
+// });
+
+let feedback=(index)=>{
+    star1.forEach((star1,inx)=>{
+
+if(inx<index+1)
+{
+  star1.classList.add("active")
+
+}
+else
+{
+  star1.classList.remove("active")
+}
+
+});
+
+singleemoji.forEach((singleemoji)=>{
+  singleemoji.style.transform =`translate(-${index*50}px)`
+ });
+
+ }
+
+</script>
+    </html
