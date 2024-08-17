@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  max-width: 500px;
+}
+.container {
+  align-content: center;
+}
+.card {
+  border: 2px solid #63636356;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px auto;
+  max-width: 500px;
+}
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+nav {
+  margin: 15px auto;
+  text-align: center;
+}
+.feedback-button {
+  background-color: purple;
+  box-shadow: white 0px 0px 5px 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px auto;
+  max-width: 500px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.feedback-button:hover {
+  box-shadow: white 0px 0px 5px 3px;
+}
