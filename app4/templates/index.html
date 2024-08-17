@@ -16,6 +16,9 @@
       crossorigin="anonymous" />
     {% load static %}
     <link rel="stylesheet" href="{% static 'style.css' %}" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
   </head>
 
   <body>
@@ -23,6 +26,18 @@
       <section class="card">
         <img class="image" src="{% static 'Grand_Theft_Auto_VI.webp' %}" alt>
         <p class="title">Grand Theft Auto VI</p>
+        <p class="average-rating">Average Rating:
+          <span class="stars">
+            {% for i in "12345"|make_list %}
+            {% if i|floatformat:1 <= average_rating %}
+            <span class="star filled">★</span>
+            {% else %}
+            <span class="star">☆</span>
+            {% endif %}
+            {% endfor %}
+          </span>
+          ({{ average_rating|floatformat:1 }} / 5)
+        </p>
 
       </section>
       <section>
@@ -34,9 +49,19 @@
       <section>
         {% for feedback in object_list %}
         <div class="review">
-          <div class="d-inline-flex"><h3>{{feedback.name}}</h3>
-          </div>
-          <p>Rating: {{feedback.rating}}</p>
+          <h3>{{feedback.name}}</h3>
+          <p class="rating">
+            Rating:
+            <span class="stars">
+              {% for i in "12345"|make_list %}
+              {% if forloop.counter <= feedback.rating %}
+              <span class="star filled">★</span>
+              {% else %}
+              <span class="star">☆</span>
+              {% endif %}
+              {% endfor %}
+            </span>
+          </p>
 
           <p>{{feedback.email}}</p>
           <p>{{feedback.message}}</p>
